@@ -1,3 +1,3 @@
 FROM alpine
 
-CMD apt-get update -y && apt-get install openssh-client -y
+RUN apk add --update openssh-client
